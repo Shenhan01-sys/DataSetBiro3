@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Naratif Lengkap Biro 3 UKDW 2025</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ukdw: {
+                            red: '#800000',
+                            gold: '#C5A059',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Merriweather', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1f2937;
+            background-color: #f9fafb;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Merriweather', serif;
+            color: #111827;
+        }
+
+        .chapter-title {
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #111827;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 1rem;
+        }
+
+        .narrative-text {
+            font-family: 'Merriweather', serif;
+            font-size: 1rem;
+            /* 16px */
+            line-height: 1.8;
+            color: #374151;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background-color: #fff;
+            border-left: 4px solid #800000;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        @media print {
+
+            nav,
+            .no-print {
+                display: none !important;
+            }
+
+            main {
+                margin-left: 0 !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                padding: 0 !important;
+            }
+
+            body {
+                background: white;
+            }
+
+            .narrative-text {
+                font-size: 11pt;
+            }
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+    <iframe src="https://portohansgunawan.my.id/DatasetBiro3/readme.html" width="100%" height="600"></iframe>
+
+
+    <!-- Sidebar Navigation -->
+    <nav
+        class="fixed top-0 left-0 w-72 h-screen bg-white border-r border-gray-200 overflow-y-auto hidden lg:block z-50 no-print">
+        <div class="p-8 border-b border-gray-100">
+            <h1 class="font-bold text-ukdw-red text-xl">Laporan Naratif</h1>
+            <p class="text-xs text-gray-500 uppercase mt-1">Biro 3 UKDW - 2025</p>
+        </div>
+        <div class="py-6">
+            <ul class="space-y-1 text-sm text-gray-600">
+                <li><a href="#bab1" class="block px-6 py-2 hover:bg-gray-50 hover:text-ukdw-red">1. Tinjauan
+                        Strategis</a></li>
+                <li><a href="#bab2" class="block px-6 py-2 hover:bg-gray-50 hover:text-ukdw-red">2. Arsitektur
+                        Organisasi</a></li>
+                <li><a href="#bab3" class="block px-6 py-2 hover:bg-gray-50 hover:text-ukdw-red">3. Ekosistem
+                        Beasiswa</a></li>
+                <li><a href="#bab4" class="block px-6 py-2 hover:bg-gray-50 hover:text-ukdw-red">4. Prestasi & Riset</a>
+                </li>
+                <li><a href="#bab5" class="block px-6 py-2 hover:bg-gray-50 hover:text-ukdw-red">5. Transformasi
+                        Karir</a></li>
+                <li><a href="#bab6" class="block px-6 py-2 hover:bg-gray-50 hover:text-ukdw-red">6. Politik &
+                        Karakter</a></li>
+                <li><a href="#bab7" class="block px-6 py-2 hover:bg-gray-50 hover:text-ukdw-red">7. Kemitraan</a></li>
+            </ul>
+        </div>
+        <div class="p-6 border-t mt-auto">
+            <button onclick="window.print()" class="flex items-center gap-2 text-sm text-gray-600 hover:text-black">
+                <i class="fas fa-print"></i> Cetak Dokumen
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="lg:ml-72 p-8 lg:p-16 max-w-4xl mx-auto">
+
+        <header class="mb-16 pb-8 border-b-4 border-ukdw-red">
+            <div class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-2">Dokumen Analisis Eksekutif</div>
+            <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
+                Laporan Komprehensif Biro Kemahasiswaan, Alumni, dan Pengembangan Karir 2025
+            </h1>
+            <p class="text-lg text-gray-600 font-serif italic">
+                Universitas Kristen Duta Wacana
+            </p>
+        </header>
+
+
+
+        <!-- BAB 1 -->
+        <section id="bab1" class="mb-16 scroll-mt-20">
+            <h2 class="chapter-title">I. Tinjauan Strategis Lanskap Pendidikan Tinggi</h2>
+            <div class="prose max-w-none">
+                <p class="narrative-text">
+                    Tahun 2025 menandai sebuah periode pivotal dalam lintasan strategis Universitas Kristen Duta Wacana
+                    (UKDW), khususnya dalam pengelolaan sumber daya mahasiswa dan pengembangan karier. Di tengah
+                    dinamika pendidikan tinggi nasional yang semakin menuntut relevansi dengan dunia industri dan dampak
+                    sosial—sebagaimana digariskan dalam kebijakan "Kampus Berdampak" oleh Kementerian Pendidikan Tinggi,
+                    Sains, dan Teknologi—Biro Kemahasiswaan, Alumni, dan Pengembangan Karir (Biro 3) telah
+                    bertransformasi menjadi unit pendukung yang vital dan adaptif.
+                </p>
+                <p class="narrative-text">
+                    Analisis terhadap data operasional tahun 2025 menunjukkan bahwa Biro 3 tidak lagi sekadar
+                    menjalankan fungsi administratif klerikal, melainkan telah berevolusi menjadi hub strategis yang
+                    mengintegrasikan kesejahteraan mahasiswa, pengembangan karakter berbasis nilai, inovasi riset
+                    mahasiswa, dan akselerasi karier global. Hal ini terkonfirmasi secara nyata melalui partisipasi
+                    aktif pimpinan universitas dan biro dalam forum tingkat tinggi seperti
+                    <strong>Indonesian Higher Education Summit (KPPTI) 2025</strong>. Forum ini mengusung tema penguatan
+                    ekosistem pendidikan menuju Indonesia Emas 2045.
+                </p>
+                <div class="highlight-box">
+                    <p class="text-sm text-gray-800 leading-relaxed font-serif">
+                        Dalam forum KPPTI tersebut, delegasi UKDW dipimpin langsung oleh Rektor Dr.-Ing. Wiyatiningsih
+                        dan didampingi oleh Wakil Rektor 3 Dr. Parmonangan Manurung. Mereka secara aktif menyelaraskan
+                        peta jalan kemahasiswaan universitas dengan Indikator Kinerja Utama (IKU) pemerintah yang baru,
+                        yang menekankan pada luaran yang berdampak signifikan bagi masyarakat luas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAB 2 -->
+        <section id="bab2" class="mb-16 scroll-mt-20">
+            <h2 class="chapter-title">II. Arsitektur Organisasi dan Modal Manusia</h2>
+            <div class="prose max-w-none">
+                <p class="narrative-text">
+                    Kekuatan eksekusi program Biro 3 sangat bergantung pada stabilitas struktur organisasi dan
+                    kompetensi sumber daya manusia yang mengawaknya. Pada tahun 2025, struktur kepemimpinan Biro 3
+                    beroperasi di bawah mandat Surat Keputusan Rektor untuk periode jabatan 2024-2028, menjamin
+                    kontinuitas kebijakan jangka panjang yang stabil. Struktur komando tertinggi di bidang kemahasiswaan
+                    berada di bawah koordinasi Wakil Rektor Bidang Kemahasiswaan, Alumni, Informasi, dan Inovasi (WR 3),
+                    yakni <strong>Dr. Parmonangan Manurung, S.T., M.T., IAI</strong>. Sebagai eksekutif puncak berlatar
+                    belakang arsitek dan akademisi, beliau memegang peran sentral dalam merumuskan kebijakan makro
+                    dengan perspektif desain sistem yang kuat. Pada tahun 2025, fokus kepemimpinan beliau terlihat jelas
+                    pada dorongan terhadap inovasi berbasis teknologi dan kewirausahaan mahasiswa, yang tercermin dari
+                    supervisi langsung beliau terhadap tim-tim mahasiswa P2MW dan PKM.
+                </p>
+                <p class="narrative-text">
+                    Operasional harian biro dipimpin oleh Kepala Biro 3, <strong>Mujiono, S.E., M.Sc.</strong>, yang
+                    menjabat untuk periode yang mencakup tahun 2025. Beliau membawa latar belakang pendidikan yang unik
+                    dan multidisiplin, dengan gelar Sarjana Ekonomi dari Universitas Terbuka dan Master of Science dari
+                    Biology Department, De La Salle University-Manila, Filipina. Kapasitas ini memungkinkan beliau
+                    menggabungkan manajemen sumber daya yang efisien dengan pendekatan saintifik dan humanis.
+                    Kepemimpinan beliau pada tahun 2025 ditandai dengan penguatan jejaring internasional dan manajerial
+                    yang rapi dalam menangani dinamika kemahasiswaan yang kompleks.
+                </p>
+                <p class="narrative-text">
+                    Mendampingi Kepala Biro, posisi Wakil Kepala Biro 3 dipegang oleh
+                    <strong>Hangudi Widya Hutama, S.Kom.</strong> Keberadaan seorang ahli teknologi informasi di jajaran
+                    pimpinan biro merupakan aset strategis di era digitalisasi kampus. Sebagai alumni Teknik Informatika
+                    UKDW, Hangudi memiliki pemahaman mendalam tentang ekosistem digital universitas. Perannya sangat
+                    krusial dalam mengawasi transformasi layanan digital biro, mulai dari sistem pendaftaran beasiswa
+                    online, Tracer Study, hingga integrasi sistem informasi kemahasiswaan lainnya yang menjadi tulang
+                    punggung operasional biro di tahun 2025.
+                </p>
+
+                <h3 class="font-bold text-xl mt-8 mb-4 text-gray-900 border-l-4 border-ukdw-red pl-4">Spesialisasi Staf
+                    Divisi Fungsional</h3>
+
+                <p class="narrative-text">
+                    <strong>Divisi Layanan Pendidikan dan Kesejahteraan</strong> diawaki oleh Handono Kristanto, yang
+                    memiliki latar belakang Manajemen Perkantoran dan Komputer, serta Wahyu Sapto Dewonugroho, S.Kom.,
+                    yang merupakan lulusan Teknik Informatika UKDW. Kombinasi keahlian manajemen perkantoran dan
+                    informatika pada divisi ini sangat relevan mengingat tugas mereka yang sarat data. Pada tahun 2025,
+                    divisi ini tidak hanya mengelola manajemen database beasiswa dan validasi kredit poin asuransi,
+                    tetapi juga mengelola alur distribusi toga wisuda dan jas almamater, serta menjadi garda terdepan
+                    dalam validasi dokumen untuk Surat Keterangan Pendamping Ijazah (SKPI).
+                </p>
+                <p class="narrative-text">
+                    <strong>Divisi Bakat Minat (Talent & Interest)</strong> berfungsi sebagai inkubator soft skills.
+                    Divisi ini diperkuat oleh Alleda Krestha, A.Md. (Ekonomi Manajemen UGM) dan Christian Thomas
+                    Octaviano, S.Sn. (Seni, ISI Yogyakarta). Kehadiran seorang sarjana seni memberikan dimensi estetika
+                    dan kreativitas yang kuat dalam pembinaan Unit Kegiatan Mahasiswa (UKM), khususnya di bidang seni
+                    dan budaya, sementara latar belakang manajemen ekonomi memperkuat aspek tata kelola organisasi. Pada
+                    tahun 2025, divisi ini bertanggung jawab penuh atas supervisi proposal PKM, seleksi mahasiswa
+                    berprestasi (Pilmapres), dan perizinan kegiatan.
+                </p>
+                <p class="narrative-text">
+                    Terakhir, <strong>Divisi Pusat Karir dan Alumni (PPKPK)</strong> dikelola oleh Adelita Anindya, S.S.
+                    (Sastra Inggris UNY) dan Vionita Angelin Simanjuntak, S.Fil. (Filsafat Keilahian UKDW). Komposisi
+                    staf dengan latar belakang humaniora ini mengindikasikan pendekatan yang menekankan pada kemampuan
+                    komunikasi, critical thinking, dan pemahaman manusia dalam mempersiapkan transisi mahasiswa ke dunia
+                    profesional. Divisi ini mengelola hubungan dengan alumni, tracer study, dan kemitraan industri
+                    strategis.
+                </p>
+            </div>
+        </section>
+
+        <!-- BAB 3 -->
+        <section id="bab3" class="mb-16 scroll-mt-20">
+            <h2 class="chapter-title">III. Ekosistem Bantuan Finansial dan Beasiswa</h2>
+            <div class="prose max-w-none">
+                <p class="narrative-text">
+                    Salah satu mandat utama Biro 3 adalah menjamin aksesibilitas pendidikan melalui pengelolaan beasiswa
+                    yang transparan dan tepat sasaran. Pada tahun 2025, Biro 3 mengelola portofolio beasiswa yang
+                    komprehensif. Skema unggulan yang menjadi sorotan adalah <strong>UKDW Scholarship 2026</strong>.
+                    Meskipun tajuk programnya mengacu pada tahun 2026, aktivitas operasional utamanya berlangsung secara
+                    intensif sepanjang paruh kedua tahun 2025. Program ini menawarkan cakupan beasiswa penuh selama 8
+                    semester untuk Program Studi Sarjana (kecuali Kedokteran dan Teologi), menjadikannya instrumen
+                    rekrutmen paling prestisius. Kronologi operasional dimulai dengan pembukaan pendaftaran pada
+                    <strong>1 September 2025</strong> yang berlangsung hingga 9 Januari 2026. Biro 3 menerapkan sistem
+                    seleksi bertingkat yang ketat meliputi verifikasi dokumen, asesmen online, hingga validasi final,
+                    dengan proses registrasi ulang bagi penerima lolos dijadwalkan pada Mei-Juni 2026.
+                </p>
+                <p class="narrative-text">
+                    Selain skema tersebut, Biro 3 juga mengelola portofolio untuk mahasiswa baru seperti
+                    <strong>Beasiswa TALENTA Duta Wacana</strong> yang juga menawarkan pembiayaan penuh 8 semester bagi
+                    siswa dengan potensi luar biasa—di mana hasil seleksi tahap 2 biasanya diumumkan pada bulan Agustus.
+                    Terdapat pula Beasiswa SAMAPTA, Beasiswa KIP Kuliah dari pemerintah, serta Beasiswa Afirmasi
+                    Pendidikan (ADiK) yang khusus dialokasikan bagi mahasiswa dari daerah Papua, Papua Barat, daerah 3T,
+                    serta anak TKI, menegaskan komitmen inklusivitas UKDW.
+                </p>
+                <p class="narrative-text">
+                    Bagi mahasiswa aktif di tahun 2025, tersedia berbagai sumber pendanaan seperti Beasiswa Kebutuhan
+                    untuk kondisi ekonomi mendesak, Beasiswa Prestasi (Akademik dan Umum), serta beasiswa dari mitra
+                    korporat seperti <strong>Bank BPD DIY</strong>, <strong>ADARO</strong>, dan
+                    <strong>SCRANTON</strong>. Dukungan gerejawi juga mengalir dari sinode mitra seperti GKI Pondok
+                    Indah, Sinode GKJ, GKJW, dan GKP. Data penerima beasiswa tahun 2025 mencakup mahasiswa berprestasi
+                    seperti Jason Harvey Suliantoro, Joshua Allan Kurnianto, dan Alicia Luna Santoso.
+                </p>
+                <div class="highlight-box bg-gray-50 border-gray-300">
+                    <h4 class="font-bold mb-2">Jadwal Administrasi Keuangan 2025</h4>
+                    <p class="text-sm text-gray-700 leading-relaxed">
+                        Dalam hal administrasi keuangan, Biro 3 bekerja sama dengan Biro Keuangan menetapkan jadwal
+                        krusial pada tahun 2025: Pembayaran SPP KAS & ICE pada 17-18 Juli 2025; Pembayaran Biaya Tetap
+                        tanpa denda pada 4-15 Agustus 2025; Pembayaran dengan denda 2,5% pada 18-21 Agustus 2025; dan
+                        batas akhir pembayaran Semester Gasal 2025/2026 jatuh pada hari Jumat,
+                        <strong>3 Oktober 2025</strong>, pukul 23.59 WIB.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAB 4 -->
+        <section id="bab4" class="mb-16 scroll-mt-20">
+            <h2 class="chapter-title">IV. Manajemen Talenta dan Prestasi Nasional</h2>
+            <div class="prose max-w-none">
+                <p class="narrative-text">
+                    Tahun 2025 menjadi tahun panen prestasi bagi UKDW di ajang bergengsi Pusat Prestasi Nasional
+                    (Puspresnas). Dalam Program Kreativitas Mahasiswa (PKM) 2025, UKDW berhasil meloloskan tiga tim
+                    pendanaan. Proyek pertama, <strong>SmartEcoWave</strong> (PKM-VGK), mengajukan konsep futuristik
+                    penghasil energi listrik hibrida yang menggabungkan tenaga gelombang laut dan surya berbasis AI dan
+                    IoT, menjawab tantangan transisi energi daerah kepulauan. Proyek kedua,
+                    <strong>Sistem Pengingat Obat Otomatis</strong> (PKM-PM), merupakan implementasi teknologi tepat
+                    guna di Panti Wredha Mulya untuk meningkatkan kepatuhan minum obat lansia. Proyek ketiga adalah
+                    riset <strong>Green Intellectual Capital UKM Wastraloka</strong> (PKM-AI) oleh tim Akuntansi
+                    (Selfiana Lestari, Gloria Sharon Rambu Muni, Vincentius Reynold Andika), yang mengkaji integrasi
+                    modal intelektual hijau dan kearifan lokal menggunakan pendekatan Resource-Based View.
+                </p>
+                <p class="narrative-text">
+                    Dalam skema Program Pembinaan Mahasiswa Wirausaha (P2MW) 2025, Biro 3 bersama unit Centrino berhasil
+                    mengantarkan dua tim meraih hibah. <strong>Tim BARNANA</strong> mengembangkan inovasi snack bar
+                    sehat berbahan dasar tepung bonggol pisang yang menjawab isu ketahanan pangan dan zero waste.
+                    Sementara itu, <strong>Tim Kerajinan Bonggol Jagung</strong> menciptakan produk jam tangan estetik
+                    dari limbah pertanian, sebuah produk kriya kreatif ramah lingkungan.
+                </p>
+                <p class="narrative-text">
+                    Komitmen inklusi UKDW dipertegas dengan prestasi Juara 1 Nasional Kategori Video Inklusi pada ajang
+                    <strong>Temu Inklusi 2025</strong>. Karya mahasiswa Desain Produk ini dipuji karena melibatkan
+                    penyandang disabilitas secara partisipatif dalam proses perancangannya, sejalan dengan filosofi
+                    desain empatik yang dikembangkan di universitas.
+                </p>
+            </div>
+        </section>
+
+        <!-- BAB 5 -->
+        <section id="bab5" class="mb-16 scroll-mt-20">
+            <h2 class="chapter-title">V. Transformasi Layanan Karier dan Hubungan Alumni</h2>
+            <div class="prose max-w-none">
+                <p class="narrative-text">
+                    Di bawah Divisi Pusat Karir (PPKPK), layanan persiapan kerja tahun 2025 mengalami evolusi signifikan
+                    melalui rebranding acara bursa kerja tahunan menjadi
+                    <strong>EduCareer Connect 2025: Your Gateway to Global Education and Careers</strong>. Acara ini
+                    diselenggarakan pada Selasa, 11 November 2025, bertempat di Atrium Agape UKDW. Event ini
+                    mengintegrasikan Job Fair, Scholarship & Study Fair, serta peluang Internship internasional dengan
+                    kehadiran mitra strategis seperti DAAD (Jerman), IDP Education, Taiwan Education Center, dan CIE.
+                    Sesi khusus "EduGlobe Talk" menghadirkan narasumber Nina Eifler dan Beatrice Dwi Putri Rustandi
+                    untuk memberikan wawasan real tentang studi dan karier global.
+                </p>
+                <p class="narrative-text">
+                    Menyadari tantangan rekrutmen digital, Biro 3 juga menyelenggarakan
+                    <strong>Program Pelatihan Kesiapan Kerja (P2KK)</strong> pada 5 Juni 2025 di Ruang Seminar Pdt. Dr.
+                    Harun Hadiwijono. Menggandeng mitra pelatih Kinobi Indonesia, materi pelatihan difokuskan pada
+                    strategi teknis menembus <em>Applicant Tracking System (ATS)</em> dan personal branding di LinkedIn.
+                    Selain itu, aksesibilitas bagi alumni luar kota difasilitasi melalui Virtual Job Fair yang
+                    diselenggarakan pada 26 Juli 2025 bekerja sama dengan TopLoker.com.
+                </p>
+            </div>
+        </section>
+
+        <!-- BAB 6 -->
+        <section id="bab6" class="mb-16 scroll-mt-20">
+            <h2 class="chapter-title">VI. Dinamika Politik Kampus & Pengembangan Karakter</h2>
+            <div class="prose max-w-none">
+                <p class="narrative-text">
+                    Tahun 2025 menjadi masa konsolidasi kepemimpinan mahasiswa baru yang mengusung visi transformatif.
+                    Berdasarkan hasil Pemira, pucuk pimpinan mahasiswa dipegang oleh <strong>Christoper Purba</strong>
+                    sebagai Presiden Mahasiswa (Ketua BEM Universitas) dan <strong>Ravael Kapugu</strong> sebagai Ketua
+                    BPM Universitas (Legislatif). Dalam pidato pelantikannya, kedua pemimpin ini menegaskan komitmen
+                    untuk membawa organisasi menjadi lebih "transformatif dan adaptif" dengan tiga prioritas kerja:
+                    advokasi akademik, pengabdian masyarakat yang berdampak, dan pengembangan kreativitas, meninggalkan
+                    retorika politik praktis demi kontribusi substansial.
+                </p>
+                <p class="narrative-text">
+                    Sejalan dengan itu, kurikulum pembinaan karakter di bawah Divisi Bakat Minat mengalami penyesuaian
+                    radikal. Orientasi Kehidupan Akademika (OKA) yang dijadwalkan pada 25–30 Agustus 2025 mengusung tema
+                    besar <strong>"Ātma-Darśana"</strong> (Penglihatan Menuju Diri Sejati). Program ini dirancang
+                    sebagai antitesis dari budaya hiruk-pikuk digital, mengajak mahasiswa baru melakukan kontemplasi dan
+                    refleksi diri demi kesehatan mental.
+                </p>
+                <p class="narrative-text">
+                    Transformasi juga terjadi pada program pembinaan spiritualitas mahasiswa (P2SM) yang di-rebranding
+                    total menjadi program <strong>Lentera 2025</strong>. Dilaksanakan dengan metode live-in di Dusun
+                    Kenalan, Magelang, pada Februari 2026, program ini mengadopsi filosofi Jawa
+                    <em>"Urip mung mampir ngombe"</em>. Peserta diajak menyelami kehidupan petani melalui aktivitas
+                    "gegeni" (berkumpul di perapian) untuk mengikis ego sektoral dan menanamkan nilai kerendahan hati
+                    serta empati sosial.
+                </p>
+            </div>
+        </section>
+
+        <!-- BAB 7 -->
+        <section id="bab7" class="mb-16 scroll-mt-20">
+            <h2 class="chapter-title">VII. Kemitraan Strategis Eksternal</h2>
+            <div class="prose max-w-none">
+                <p class="narrative-text">
+                    Keberhasilan program kemahasiswaan sangat bergantung pada dukungan ekosistem eksternal. Pada 24
+                    Oktober 2025, UKDW menyelenggarakan <strong>"Mitra Gathering 2025"</strong> di Malioboro Ballroom,
+                    Hotel New Saphir Yogyakarta, dengan tema "Bergerak Bersama Menuju Pendidikan Kristiani yang
+                    Berdampak." Acara ini menjadi tulang punggung keberlanjutan finansial program beasiswa, memperkuat
+                    jejaring dengan donatur, gereja pendukung, dan mitra industri. Rektor UKDW menegaskan dalam acara
+                    tersebut bahwa universitas berdiri dan berkembang karena kerja sama para mitra, menempatkan
+                    gathering ini sebagai agenda strategis vital bagi Biro 3.
+                </p>
+            </div>
+        </section>
+
+        <footer class="mt-20 pt-10 border-t border-gray-300 text-center text-sm text-gray-500">
+            <p class="font-bold text-gray-900 mb-2">Biro Kemahasiswaan, Alumni, dan Pengembangan Karir (Biro 3)</p>
+            <p>Universitas Kristen Duta Wacana</p>
+            <p class="mt-2">Jl. Dr. Wahidin Sudirohusodo No. 5-25, Yogyakarta</p>
+            <p class="mt-8 text-xs">© 2025 Laporan Analisis Eksekutif. Seluruh hak cipta dilindungi.</p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
